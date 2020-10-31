@@ -44,7 +44,7 @@ These steps will get you a copy of the project up and running for development an
 
    In the project directory, run the following command to launch the project in development mode:  `npm run serve`.
 
-## Hospital Admin Features
+## Coaches Features
 
     Review all Requests received.
 
