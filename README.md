@@ -33,12 +33,12 @@ These steps will get you a copy of the project up and running for development an
 	    },
 	}
 	```
-9.  In Authentication in Firebase, in **Sign-in method**, enable the email/password.
-10. From project setting in firebase you can get **Web API Key** and it's unique for each project.
+9.   In Authentication in Firebase, in **Sign-in method**, enable the email/password.
+10.  From project setting in firebase you can get **Web API Key** and it's unique for each project.
 11.  In the **.env** file change the  `VUE_APP_WEB_API_KEY`,  `VUE_APP_FIREBASE_DATABASE_URL`  variables to match the credentials of the database you just created in Firebase.
 
     And I recommended taking a look at the firebase documentation to fully understand all the steps and all .env variables.
-    You Also Can Try the deployed version[Click here](https://vue-http-demo-7dafa.web.app).
+    You Also Can Try the deployed version from here: https://vue-http-demo-7dafa.web.app
     
 ## Usage
 
