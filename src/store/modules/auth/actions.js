@@ -9,7 +9,7 @@ export default {
 		} else {
 			url = process.env.VUE_APP_FIREBASE_AUTH_SIGNUP_URL;
 		}
-		const response = await fetch(`${url}${process.env.VUE_APP_KEY}`, {
+		const response = await fetch(`${url}${process.env.VUE_APP_WEB_API_KEY}`, {
 			method: 'POST',
 			body: JSON.stringify({
 				email: payload.email,
